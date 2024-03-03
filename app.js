@@ -1,16 +1,12 @@
 
-// app.js import
-import { personalData } from './data.js';
+import { myArrowFunction } from "./card.js";
+
+const personalData = {
+    firstName: "Rolan Jay",
+    lastName: "Isabida",
+    title: "Title",
+    paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+};
 
 
-const myFunction = () => {
-    // decunstruction
-    const { firstName, lastName, title } = personalData
-    
-    // template literal
-    return `${firstName} ${lastName} ${title}`
-
-}
-
-
-console.log(myFunction())
+console.log(myArrowFunction(personalData))
