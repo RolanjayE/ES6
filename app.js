@@ -1,5 +1,5 @@
 
-import { myArrowFunction } from "./card.js";
+import { myArrowFunction, sample, secondData } from "./card.js";
 
 const personalData = {
     firstName: "Rolan Jay",
@@ -8,5 +8,6 @@ const personalData = {
     paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 };
 
-
 console.log(myArrowFunction(personalData))
+console.log(sample)
+console.log(secondData)
